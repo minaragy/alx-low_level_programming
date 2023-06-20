@@ -1,5 +1,6 @@
-#include <main.h> 
-main () {
+#include <stdio.h> 
+
+int main () {
 
 printf (_putchar);
 
