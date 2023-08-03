@@ -16,6 +16,7 @@ unsigned long int _power(unsigned int base, unsigned int pow)
 	return (num);
 }
 /**
+ * print_binary - prints the binary representation of a number
  * @n: num of prented
  * Return: void
  */
@@ -24,8 +25,8 @@ void print_binary(unsigned long int n)
 	unsigned long int dev, result;
 	char flag;
 
-		flag = 0;
-		dev = _power(2, sizeof(unsigned long int) * 8 - 1);
+	flag = 0;
+	dev = _power(2, sizeof(unsigned long int) * 8 - 1);
 
 	while (dev != 0)
 	{
